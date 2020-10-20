@@ -24,4 +24,5 @@ VALUES('Clerical Office', 'Ivan_ivanov@example.com', 'Ivan', 'Ivanov','+70649310
 
 UPDATE optimized.staff SET department = 'Sales', room='42' WHERE first_name = 'William' AND last_name = 'Anderson';
 
+# Заметка
 CSV таблицу можно было оптимизировать в базу данных с несколькими родственными таблицами (Relative tables) для удобства, однако, я еще не разобрался как это сделать. Исправлюсь.
